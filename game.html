@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="hud">
+        <!-- hud progress bar -->
+        <div class="hud-item">
+            <p id="progress-text" class="hud-prefix">
+                Question
+            </p>
+            <div id="progressBar">
+                <div id="progressBarFull"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- question container -->
+        <div class="question-container hide">
+            <div id="question">Question ?</div>
+            <div id="answers-btn" class="btn-grid">
+                <button class="btn ">Answer 1</button>
+                <button class="btn ">Answer 2</button>
+                <button class="btn ">Answer 3</button>
+                <button class="btn ">Answer 4</button>
+
+            </div>
+        </div>
+
+        <!-- controls container -->
+        <div class="controls">
+            <button id="next-btn" class="next-btn btn ">Next</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+
+</body>
+
+</html>

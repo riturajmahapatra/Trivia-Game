@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Delicious+Handrawn&family=Nabla&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: rgb(26, 24, 26);
+    font-size: 2rem;
+    font-family: 'Nabla', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+}
+
+.flex-coloumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    width: 15rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    transition: 0.6s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transform: scale(0.97);
+}
+
+.button[disabled]:hover {
+    cursor: not-allowed;
+    transform: none;
+    transition: none;
+}
+
+#button-color {
+    /* this is for the crown color */
+
+    color: #fcb045;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
